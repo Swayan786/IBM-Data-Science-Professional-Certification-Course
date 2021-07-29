@@ -1,6 +1,6 @@
 # IBM-Data-Science-Professional-Certification-Course
-Graded assignment on data science methodology
-Data Science Methodology Case Study
+##Graded assignment on data science methodology
+###Data Science Methodology Case Study
 
 Which topic did you choose to apply the data science methodology to?
 
