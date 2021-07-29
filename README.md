@@ -6,7 +6,7 @@ Data Science Methodology Case Study
 
 Which topic did you choose to apply the data science methodology to?
 
-ANS: I choose credit cards in a scenario where we should use information of credit cards companies in order to identify business opportunities
+ANS: I choose credit cards in a scenario where we should use information of credit card companies in order to identify business opportunities
 
 Next, you will play the role of the client and the data scientist.
 
