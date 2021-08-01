@@ -30,18 +30,19 @@ Based on credit card consumption data of business in a given geographic sector, 
 
 Briefly explain how you would complete each of the following stages for the problem that you described in the Business Understanding stage, so that you are ultimately able to answer the question that you came up with. (5 marks):
 
-Analytic Approach Data Requirements Data Collection Data Understanding and Preparation Modeling and Evaluation You can always refer to the labs as a reference with describing how you would complete each stage for your problem.
+1. Analytic Approach 2. Data Requirements 3. Data Collection 4. Data Understanding and Preparation 5. Modeling and Evaluation. You can always refer to the labs as a reference with describing how you would complete each stage for your problem.
 
-ANS: 1. Analytic Approach As long as we are looking for business that some how could be related, it is necessary to use a descriptive model. It would be also useful defining clusters within certain area.
+ANS: 1. Analytic Approach:
+As long as we are looking for business that some how could be related, it is necessary to use a descriptive model. It would be also useful defining clusters within certain area.
 
-Data Requirements
+2. Data Requirements:
 Always keeping in mind our goal is to identify opportunities of related business, we would not need to collect the business names but its location (address), the type of business (food, cuisine, sports, etc). Historical data of consumption in each business. It will be necessary to collect information from several sources at least the most common used or accepted in most part of the business. It will also be necessary a list of products per industry type with sales information so the pre selected business could be expanded in related products. Credit cards use their information to provide re targeting services to other companies, detailed information of business is probably confidential, how ever consolidate information with out the names and fiscal registration may be available for commercial purposes. It would be necessary to contact the B2B department and request the information described above for, at least, the last 3 years so we could identify seasonality, and market trends. Products list could be find in any official national statistic organization. In Ecuador is the Central Bank the one who collects and publish data per product classified by the CIIU code. This information should be one year late how ever, as long as there is enough data from several years it could be possible to get an approach of -to date- data. There could be two possible scenarios where there is a business opportunity. The first one is when product information shows high sales of some product and in the area there are few places where the item is sold and the second one when information of the area show a high sales of any product but complementary products aren’t offered in the same area
 
-Data Collection
+3. Data Collection:
 Information from credit cards should be in a structured form but it would be necessary to obtain weekly and monthly consumption, as long as product sales information from Central Bank have also other data attached to each product, it would be necessary to remove that unwanted information. Data of products could be in a unustructered form so it would be necessary to define the fields, depending on the amount of rows it could be used Python or some other program in Jupiter notebooks.
 
-Data Understanding and Preparation Some data could be incomplete so we should figure out if it is necessary or if we can skip it. Some other information could present the same product with different names so we would want to fix that. There will be in the product database a lot of information of different products such as gasoline that we will not be interested in son viewing the list of products and the amount of records should help us to concentrate in those we want to analyze. Then we should remove unnecessary data.
+4. Data Understanding and Preparation:
+Some data could be incomplete so we should figure out if it is necessary or if we can skip it. Some other information could present the same product with different names so we would want to fix that. There will be in the product database a lot of information of different products such as gasoline that we will not be interested in son viewing the list of products and the amount of records should help us to concentrate in those we want to analyze. Then we should remove unnecessary data.
 
-Modeling and Evaluation
-
+5. Modeling and Evaluation:
 As long as we’re working on a descriptive model we would not need a training set, however getting a decent figures of the calculated Up To Date product consumption is necessary because we depend on this information to take the right decisions We should think that we’re assuming that people who are consuming some product in a defined areas are likely to consume some related product, so the modeling process should take us to estimate the sales of a different suggested related products in a defined area. Some other market considerations may come out when performing the analysis so the process may be redefined and adjusted to get the best information to make a decision.
